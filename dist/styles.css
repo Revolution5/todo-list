@@ -25,21 +25,23 @@ body {
 }
 
 .projects {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
     background-color: #f3f4f6;
     grid-column: 1/1;
+    gap: 30px;
 }
 
 .add-project {
-    padding-left: 200px;
+    align-self: flex-end;
+    padding-right: 30px;
 }
 
-.project-item {
-    padding-left: 60px;
-    margin-bottom: 15px;
-}
-
-.projects > h1 {
-    padding-left: 50px;
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .todos {
@@ -48,4 +50,15 @@ body {
     justify-content: flex-start;
     align-items: center;
     grid-column: 2/2;
+}
+
+.project-input {
+    position: relative;
+    
+}
+
+form {
+    display: none;
+    justify-content: center;
+    gap: 10px;
 }

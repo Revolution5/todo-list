@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo List</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -31,6 +32,10 @@
             <div class="add-project">
                 <button>+ Add Project</button>
             </div>
+            <form action="#" class = "project-form" onsubmit="return false">
+                <input type="text" name="project-input" id="project-input">
+                <button type="submit" class="submit">Add</button>
+            </form>
         </div>
         <div class="todos">
             <h2>Example Project 1</h2>
