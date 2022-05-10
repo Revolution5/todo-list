@@ -35,13 +35,17 @@ body {
 
 .project-item {
     padding-left: 60px;
+    margin-bottom: 15px;
 }
 
 .projects > h1 {
     padding-left: 50px;
 }
 
-
 .todos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     grid-column: 2/2;
 }
