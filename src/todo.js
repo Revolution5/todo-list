@@ -6,26 +6,26 @@ class Todo {
     }
 
     get title() {
-        return this.title;
+        return this._title;
     }
 
     set title(title) {
-        this.title = title;
+        this._title = title;
     }
 
     get dueDate() {
-        return this.dueDate;
+        return this._dueDate;
     }
 
     set dueDate(dueDate) {
-        this.dueDate = dueDate;
+        this._dueDate = dueDate;
     }
 
     get isComplete() {
-        return this.isComplete;
+        return this._isComplete;
     }
 
     set isComplete(isComplete) {
-        this.isComplete = isComplete;
+        this._isComplete = isComplete;
     }
 }

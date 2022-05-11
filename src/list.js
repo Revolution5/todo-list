@@ -1,1 +1,1 @@
-let projects = [];
+export let projectsArray = [];

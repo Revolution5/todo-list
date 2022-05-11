@@ -1,23 +1,23 @@
-class Project {
+export class Project {
     constructor(name) {
         this.name = name;
         this.todos = [];
     }
 
     get name() {
-        return this.name;
+        return this._name;
     }
 
     set name(name) {
-        this.name = name;
+        this._name = name;
     }
 
     get todos() {
-        return this.todos;
+        return this._todos;
     }
 
     set todos(todos) {
-        this.todos = todos;
+        this._todos = todos;
     }
 
     addTodo(newTodo) {
